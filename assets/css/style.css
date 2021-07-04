@@ -40,7 +40,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 22px;
 }
@@ -86,7 +86,9 @@ section {
   background-position: center;
   position: relative;
   height: 600px;
+  align-items: flex-start;
 }
+
 
 .hero-form {
   border: 3px solid #024e76;
@@ -133,7 +135,7 @@ section {
 
 /* SECTION TITLE STYLES START */
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   display: inline-block;
   padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
@@ -287,4 +289,8 @@ height: 400px;
 
 .text-right {
   text-align: right;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
 }
